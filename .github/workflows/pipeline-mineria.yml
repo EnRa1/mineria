@@ -20,12 +20,12 @@ jobs:
           GOOGLE_SEARCH_API_KEY: ${{ secrets.GOOGLE_SEARCH_API_KEY }}
           GOOGLE_SEARCH_ENGINE_ID: ${{ secrets.GOOGLE_SEARCH_ENGINE_ID }}
         run: python mineria_pipeline.py
-      - name: Subir borradores a WordPress
-        env:
-          WP_URL: ${{ secrets.WP_URL }}
-          WP_USER: ${{ secrets.WP_USER }}
-          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
-        run: python publish_to_wordpress.py
+# - name: Subir borradores a WordPress
+#   env:
+#     WP_URL: ${{ secrets.WP_URL }}
+#     WP_USER: ${{ secrets.WP_USER }}
+#     WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+#   run: python publish_to_wordpress.py
       - name: Commitear borradores nuevos
         run: |
           git config user.name "mineria-com-ar-bot"
