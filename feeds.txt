@@ -1,0 +1,25 @@
+# ============================================================
+# feeds.txt - mineria.com.ar
+# Fuentes RSS verificadas o con alta probabilidad de tener /feed/
+# activo (WordPress estándar). Antes de la primera corrida real,
+# correr el pipeline una vez en modo debug e imprimir cuántas
+# entradas trae cada feed, para descartar los que no respondan.
+# ============================================================
+
+# --- Minería & Desarrollo (RSS confirmado, segmentado por sección) ---
+https://www.mineriaydesarrollo.com/rss/mineria/
+https://www.mineriaydesarrollo.com/rss/economia/
+https://www.mineriaydesarrollo.com/rss/internacionales/
+https://www.mineriaydesarrollo.com/rss/latinoamerica/
+https://www.mineriaydesarrollo.com/rss/agua/
+
+# --- Medios argentinos especializados (WordPress, a validar /feed/) ---
+https://noticiasdemineria.com.ar/feed/
+https://noticiasmineras.com.ar/feed/
+https://www.panorama-minero.com/feed/
+https://mineriasustentable.com.ar/feed/
+https://editorialrn.com.ar/feed/
+
+# --- Referencia internacional (contexto / triangulación, no son la fuente principal) ---
+https://www.mining.com/feed/
+https://www.mining-technology.com/feed/
